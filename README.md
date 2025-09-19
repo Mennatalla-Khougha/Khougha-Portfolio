@@ -1,77 +1,36 @@
-# 📖 Khougha Storybook Portfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 🚀 Project Title & Description
-**Khougha Storybook Portfolio** is a personal developer portfolio designed as an interactive storybook.  
-It showcases my journey from science teacher and karate coach to full-stack software engineer specializing in **Backend, DevOps, and Frontend**.  
+## Getting Started
 
-The project is both:
-- A **capstone project** for my *AI for Developers Course* (demonstrating applied AI workflows in real development).  
-- A **real-world portfolio** to attract freelance clients, land full-time software engineering opportunities, and build my personal brand.  
+First, run the development server:
 
-Key goals:
-- Present my projects with a balance of **deep technical case studies** and **story-driven highlights**.  
-- Impress recruiters, collaborators, and a very picky friend who will be my toughest critic.  
-- Deliver a lightweight, fast, maintainable site that I can easily update using Markdown/JSON.  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🛠️ Tech Stack
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Frameworks & Libraries**
-- [Next.js (App Router)](https://nextjs.org/) – Core framework  
-- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) – UI and type safety  
-- [shadcn/ui](https://ui.shadcn.com/) + [Tailwind CSS](https://tailwindcss.com/) – Components and styling  
-- [Framer Motion](https://www.framer.com/motion/) – Storybook-style animations (page flips/scroll transitions)  
-- [MDX](https://mdxjs.com/) – For deep-dive case studies  
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**Deployment & Tooling**
-- [Vercel](https://vercel.com/) – Hosting & deployment  
-- [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Biome](https://biomejs.dev/) – Linting & formatting  
-- [Vitest](https://vitest.dev/) + [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) – Unit testing  
-- [Playwright](https://playwright.dev/) – Integration & accessibility testing  
+## Learn More
 
-**Content System**
-- Single JSON file (`content/portfolio.json`) as source of truth  
-- MDX files for in-depth project case studies  
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🤖 AI Integration Strategy
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-AI tools are first-class citizens in this project. They scaffold, test, document, and refactor code across the lifecycle.  
+## Deploy on Vercel
 
-### 🔹 Code generation
-- Use **Cursor** and **Zed** AI agents to scaffold components (e.g., `BookShell`, `ProjectCard`, navigation).  
-- Use **Google Gemini CLI** and **OpenAI Codex/GPT** for refactoring, generating Framer Motion patterns, and optimizing layouts.  
-- Use **RabbitCode** (and similar tools) for proposing file trees, component APIs, and boilerplate tests.  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 🔹 Testing
-- AI prompts will generate **unit tests** with Vitest + React Testing Library (props, accessibility, reduced-motion states).  
-- **Integration tests** created via AI for Playwright flows (e.g., chapter navigation, project deep-dive rendering, keyboard focus order).  
-
-### 🔹 Documentation
-- AI will draft **docstrings**, inline comments, and **README updates** to keep documentation synchronized with implementation.  
-- AI-generated **changelogs** will summarize commits and PRs.  
-- Case-study writeups (MDX) will be **AI-assisted summaries** of development stories.  
-
-### 🔹 Context-aware techniques
-- AI will be fed **file trees**, **diffs**, and **component signatures** when asking for refactors.  
-- Content JSON and MDX snippets will be provided in prompts to align copywriting with schema.  
-- Use a **“spec → impl” prompting pattern**: define acceptance criteria first, then generate code.  
-
----
-
-## 📌 Project Plan (Milestones)
-
-1. **Foundation** – Setup Next.js app, Tailwind, shadcn/ui, Framer Motion, JSON schema.  
-2. **Chapters** – Implement About, Work, Projects (cards + deep dives), Writing, Earlier Career, Contact.  
-3. **Polish** – Animations, badges, accessibility, responsive design, performance tuning.  
-4. **AI Documentation & Tests** – Generate tests, README AI logs, finalize deployment on Vercel.  
-
----
-
-## 📬 Contact
-- **Email**: mkhougha@gmail.com  
-- **GitHub**: [Mennatalla-Khougha](https://github.com/Mennatalla-Khougha)  
-- **LinkedIn**: [linkedin.com/in/khougha](https://www.linkedin.com/in/khougha)  
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

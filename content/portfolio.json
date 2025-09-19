@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "name": "Mennatalla Khougha",
+    "title": "Software Engineer — Backend, DevOps, Frontend",
+    "location": "Alexandria, Egypt",
+    "email": "mkhougha@gmail.com",
+    "phone": "+20 128 583 8494",
+    "theme": "dark",
+    "links": {
+      "portfolio": "https://mennatalla-khougha.vercel.app",
+      "github": "https://github.com/Mennatalla-Khougha",
+      "linkedin": "https://www.linkedin.com/in/khougha",
+      "cv": "/static/Khougha_CV.pdf"
+    }
+  },
+  "about": {
+    "tagline": "I ship reliable Python/FastAPI services and resilient CI/CD.",
+    "summary": "Full-stack engineer focused on backend and DevOps. I design fast, reliable APIs and automate delivery with GitLab CI/CD. Comfortable with Frappe/ERPNext, Docker/Linux, Redis, Firestore, Nginx/OpenSSL, and Bash. Previously a karate coach and science teacher—now I bring coaching, systems thinking, and iteration discipline to software.",
+    "highlights": [
+      "Rollback-safe CI pipelines → PR→prod −45% & 2–3× deploy frequency",
+      "FastAPI + Firestore + Redis: 48 s create → < 2 s; sub-second reads",
+      "ERPNext ops: infra cost −20%, env setup −40% (onboarding faster)"
+    ]
+  },
+  "skills": {
+    "languages": ["C", "Python", "JavaScript", "TypeScript", "SQL"],
+    "backend": ["FastAPI", "Django", "Flask", "Frappe", "NestJS", "Express"],
+    "frontend": ["React", "Next.js", "shadcn/ui", "HTML", "CSS", "Tailwind CSS"],
+    "databases": ["MySQL", "MariaDB", "MongoDB", "Firestore"],
+    "orms": ["SQLAlchemy", "Prisma"],
+    "devops": ["Linux", "Docker", "Docker Compose", "Nginx", "Nginx Proxy Manager", "GitLab CI", "GitHub Actions", "OpenSSL"]
+  },
+  "education": [
+    {"institution": "Holberton School / ALX-Africa", "program": "Full Stack Software Engineering", "year": "2024"},
+    {"institution": "Alexandria University", "program": "Postgraduate Diploma in Health Sciences", "year": "2019"},
+    {"institution": "Alexandria University", "program": "B.Sc. Chemistry/Physics", "year": "2011"}
+  ],
+  "professionalDevelopment": [
+    {
+      "title": "Skyscanner Front-End SWE Virtual Experience — Forage",
+      "date": "March 2024",
+      "notes": [
+        "Built small React app mirroring Skyscanner workflows",
+        "Implemented travel-date selection with Backpack components",
+        "Customized UI and added automated tests"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Freelance",
+      "role": "DevOps & Full-Stack Engineer",
+      "location": "Remote",
+      "period": "2025 – Present",
+      "impact": [
+        "Migrated Frappe/ERPNext to Docker Compose monolith → infra cost −20%, env setup −40%",
+        "GitLab CI/CD (build → lint/review → test → staging → prod) with rollback → PR→prod −45%, deploys 2–3×",
+        "Automated ERPNext instance provisioning from Odoo SaaS (idempotent) → setup −75%, manual errors −90%",
+        "Enforced HTTPS with self-signed SSL for internal envs → 100% TLS coverage"
+      ]
+    },
+    {
+      "company": "Appy Innovate",
+      "role": "Python Developer",
+      "location": "Remote",
+      "period": "2024 – 2025",
+      "impact": [
+        "Customized Frappe/ERPNext DocTypes (fields, validation, workflows)",
+        "Administered Linux servers for Dockerized services; provisioned TLS/SSL for all domains/subdomains → env provisioning −90%",
+        "Automated ERPNext workflows via API → setup time −65%",
+        "Bash build script for Docker images → CI/CD pipeline time −60%"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "roadmaps-api",
+      "name": "Roadmaps API",
+      "role": "Solo (Backend)",
+      "type": "deep-dive",
+      "stack": ["FastAPI", "Firestore", "Redis", "Docker", "Python"],
+      "summary": "Backend for roadmaps → topics → tasks with clean layers and Dockerized dev.",
+      "impact": [
+        "Create latency: 48 s → < 2 s via batched writes",
+        "Sub-second list endpoints via Redis caching + background Firestore calls"
+      ],
+      "features": ["JWT/session auth", "tests", "CI until green"],
+      "links": {
+        "article": "https://medium.com/@menmen.khougha/learning-fastapi-firestore-radis-a-backend-journey-with-more-bugs-than-features-wip-15d103954e70",
+        "post": "https://www.linkedin.com/pulse/learning-fastapi-firestore-radis-backend-journey-more-khougha-cgnze/"
+      },
+      "assets": []
+    },
+    {
+      "slug": "social-platform-mvp",
+      "name": "Social Platform MVP",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["React", "TypeScript", "shadcn/ui", "NestJS"],
+      "summary": "Turned sketches into a working UI using Vercel v0 & Rocket.io scaffolds; fixed types and connected to NestJS.",
+      "impact": ["Demo-ready flow (login, add/list posts)", "Type-safe API contracts and error states"]
+    },
+    {
+      "slug": "gamified-learning-simulation",
+      "name": "Gamified Learning Simulation",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["React", "TypeScript", "shadcn/ui", "NestJS"],
+      "summary": "Generated initial UI, resolved runtime/types, implemented core gamified logic end-to-end for demo.",
+      "impact": ["Interactive prototype under tight timelines"]
+    },
+    {
+      "slug": "alxhibit",
+      "name": "ALXHIBIT",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["Next.js", "React", "TypeScript", "Prisma", "MongoDB", "Tailwind CSS", "Git"],
+      "summary": "Projects gallery to showcase, rate, connect, and share.",
+      "impact": ["+25% retention after interactivity", "Timeline cut by 57% via component libraries"]
+    },
+    {
+      "slug": "doodles",
+      "name": "Doodles",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["Next.js", "React", "TypeScript", "Prisma", "MongoDB", "Tailwind CSS", "Git"],
+      "summary": "Drawing-sharing web app for posting and rating artwork.",
+      "impact": ["+30% engagement after UI/UX improvements", "+80% mobile experience from responsiveness"]
+    },
+    {
+      "slug": "lck-rpg",
+      "name": "LCK",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["Next.js", "NestJS", "Redux", "MongoDB", "TypeScript", "Tailwind CSS", "Git"],
+      "summary": "Role-playing game with story/image generation.",
+      "impact": ["96% positive feedback on story creativity & visuals"]
+    },
+    {
+      "slug": "sports-club-center",
+      "name": "Sports Club Center",
+      "role": "Collaborative",
+      "type": "story-card",
+      "stack": ["JavaScript", "HTML", "CSS", "Python", "Flask", "MySQL", "SQLAlchemy"],
+      "summary": "Club activity management and player record tracking.",
+      "impact": ["AI-assisted visuals 60% positive feedback", "Seed data improved perceived UX by 67%"]
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "ci-cd-rollback-pipeline",
+      "title": "GitLab CI/CD with Rollback",
+      "summary": "Build → lint/review → test → staging → prod with rollback; delivery acceleration.",
+      "impact": ["PR→prod lead time −45%", "2–3× deploy frequency"],
+      "context": "Freelance DevOps work; GitLab CI pipelines for Dockerized services."
+    },
+    {
+      "slug": "erpnext-automation-ssl",
+      "title": "ERPNext Automation & TLS Everywhere",
+      "summary": "Automated instance provisioning; enforced HTTPS across services.",
+      "impact": ["Setup time −75% (provisioning) / −65% (workflows)", "Infra cost −20%", "Env setup −40%", "100% TLS coverage"],
+      "context": "Freelance + Appy Innovate; Docker, Nginx/OpenSSL, idempotent scripts."
+    }
+  ],
+  "writing": [
+    {
+      "title": "Learning FastAPI + Firestore + Redis — A Backend Journey (WIP)",
+      "url": "https://medium.com/@menmen.khougha/learning-fastapi-firestore-radis-a-backend-journey-with-more-bugs-than-features-wip-15d103954e70"
+    },
+    {
+      "title": "Learning FastAPI, Firestore, Redis — Backend Journey (LinkedIn)",
+      "url": "https://www.linkedin.com/pulse/learning-fastapi-firestore-radis-backend-journey-more-khougha-cgnze/"
+    }
+  ],
+  "earlierCareer": [
+    {
+      "title": "Karate Coach",
+      "period": "2013 – 2024",
+      "impact": [
+        "Mentored 1,000+ athletes; 100% belt-promotion pass rate; multiple championships",
+        "Digitized admin (registrations, tracking) → errors −80%, efficiency +65%"
+      ]
+    },
+    {
+      "title": "Science Teacher",
+      "period": "2013 – 2017",
+      "impact": [
+        "Hands-on experiments; test scores +20%",
+        "95% positive student feedback for engaging instruction"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "mkhougha@gmail.com",
+    "github": "Mennatalla-Khougha",
+    "linkedin": "khougha"
+  },
+  "navigation": [
+    {"chapter": "About", "anchor": "about"},
+    {"chapter": "Work", "anchor": "work"},
+    {"chapter": "Projects", "anchor": "projects"},
+    {"chapter": "Writing", "anchor": "writing"},
+    {"chapter": "Earlier Career", "anchor": "earlier-career"},
+    {"chapter": "Contact", "anchor": "contact"}
+  ]
+}

@@ -36,6 +36,36 @@ Key goals:
 
 ---
 
+## ⚙️ Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mennatalla-Khougha/khougha-portfolio.git
+   cd khougha-portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** to [http://localhost:3000](http://localhost:3000).
+
+### Tailwind CSS & shadcn/ui
+
+This project uses Tailwind CSS for styling and shadcn/ui for the component library. The setup is already configured, but if you need to add new components, use the shadcn/ui CLI:
+
+```bash
+npx shadcn-ui@latest add <component-name>
+```
+
+---
+
 ## 🤖 AI Integration Strategy
 
 AI tools are first-class citizens in this project. They scaffold, test, document, and refactor code across the lifecycle.  

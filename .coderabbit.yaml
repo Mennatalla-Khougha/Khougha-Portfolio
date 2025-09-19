@@ -1,0 +1,53 @@
+project:
+  name: "khougha-portfolio"
+  description: "AI-assisted Storybook Portfolio (MVP scroll + Fancy flip)"
+
+language: en
+
+reviews:
+  profile: "sarcastic"  
+
+Frameworks & Libraries:
+  - Next.js 
+  - React
+  - TypeScript
+  - shadcn/ui
+  - Tailwind CSS
+  - Framer Motion
+  - MDX
+
+tools:
+    - Vercel
+    - GitHub
+    - ESLint
+    - Prettier
+
+ai_integration:
+  read_context_first: true
+  follow_conventions: true
+  update_context_on_change: true
+  check_before_action:
+    - structure_changes
+    - dependencies_changes
+    - test_or_doc_updates
+    - stack_and_standard_consistency
+  diff_mode: true
+  human_review: true
+
+workflow:
+  steps:
+    - load_context
+    - scaffold_code
+    - generate_tests
+    - update_docs
+    - suggest_context_changes
+  conventions:
+    code_format: ESLint + Prettier
+    styling: TailwindCSS
+    testing: Jest + React Testing Library
+    commit_message_format: Conventional Commits
+  mvp_scope:
+    - landing_page_with_hero_about_projects_contact
+    - responsive_design
+    - hosted_on_vercel
+

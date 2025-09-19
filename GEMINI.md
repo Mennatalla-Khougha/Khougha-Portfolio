@@ -1,0 +1,7 @@
+Open and obey the canonical rules in IAM_INSTRUCTION.md at repo root.
+
+Key non-negotiables:
+- Dark theme only.
+- Naming convention: directories & non-components kebab-case; React components PascalCase; tests .test.ts(x).
+- Read README + context + backlog before tasks; log results to reflection.md; keep backlog/README/context up to date.
+- update reflaction.md with every finished task

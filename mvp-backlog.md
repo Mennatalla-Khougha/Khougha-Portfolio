@@ -4,13 +4,13 @@
 - [x] **MVP-1.1** Initialize Next.js (App Router) + TypeScript project
 - [x] **MVP-1.2** Configure Tailwind CSS + shadcn/ui
 - [x] **MVP-1.3** Add Framer Motion (basic, not for fancy flips yet)
-- [ ] **MVP-1.4** Setup ESLint, Prettier, Biome
-- [ ] **MVP-1.5** Setup Vitest + React Testing Library
-- [ ] **MVP-1.6** Create `/content/portfolio.json` as single data source
-- [ ] **MVP-1.7** Add `/content/case-studies/` folder for MDX deep dives
+- [x] **MVP-1.4** Setup ESLint, Prettier, Biome
+- [x] **MVP-1.5** Setup Vitest + React Testing Library
+- [x] **MVP-1.6** Create `/content/portfolio.json` as single data source
+- [x] **MVP-1.7** Add `/content/case-studies/` folder for MDX deep dives
 
 ## Epic MVP-2 – Core Layout
-- [ ] **MVP-2.1** Implement `BookShell` with scrollable chapter sections
+- [x] **MVP-2.1** Implement `BookShell` with scrollable chapter sections
 - [ ] **MVP-2.2** Implement `ChapterNav` (sticky quick nav for chapters)
 - [ ] **MVP-2.3** Add global SEO component (OpenGraph meta)
 

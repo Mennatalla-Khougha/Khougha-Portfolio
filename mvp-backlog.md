@@ -1,9 +1,9 @@
 # Backlog (MVP – Scroll Version)
 
 ## Epic MVP-1 – Project Setup
-- [ ] **MVP-1.1** Initialize Next.js (App Router) + TypeScript project
+- [x] **MVP-1.1** Initialize Next.js (App Router) + TypeScript project
 - [x] **MVP-1.2** Configure Tailwind CSS + shadcn/ui
-- [ ] **MVP-1.3** Add Framer Motion (basic, not for fancy flips yet)
+- [x] **MVP-1.3** Add Framer Motion (basic, not for fancy flips yet)
 - [ ] **MVP-1.4** Setup ESLint, Prettier, Biome
 - [ ] **MVP-1.5** Setup Vitest + React Testing Library
 - [ ] **MVP-1.6** Create `/content/portfolio.json` as single data source

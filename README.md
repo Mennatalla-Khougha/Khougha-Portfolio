@@ -64,6 +64,14 @@ This project uses Tailwind CSS for styling and shadcn/ui for the component libra
 npx shadcn-ui@latest add <component-name>
 ```
 
+### Framer Motion
+
+Framer Motion is used for animations. To install it, run:
+
+```bash
+npm install framer-motion
+```
+
 ---
 
 ## 🤖 AI Integration Strategy

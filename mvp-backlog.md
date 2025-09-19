@@ -11,16 +11,16 @@
 
 ## Epic MVP-2 – Core Layout
 - [x] **MVP-2.1** Implement `BookShell` with scrollable chapter sections
-- [ ] **MVP-2.2** Implement `ChapterNav` (sticky quick nav for chapters)
-- [ ] **MVP-2.3** Add global SEO component (OpenGraph meta)
+- [x] **MVP-2.2** Implement `ChapterNav` (sticky quick nav for chapters)
+- [x] **MVP-2.3** Add global SEO component (OpenGraph meta)
 
 ## Epic MVP-3 – Chapters
-- [ ] **MVP-3.1** Chapter 1: About Me (story-driven intro)
-- [ ] **MVP-3.2** Chapter 2: Work Experience (Freelance, Appy Innovate)
-- [ ] **MVP-3.3** Chapter 3: Projects grid (deep dives + story cards)
-- [ ] **MVP-3.4** Chapter 4: Writing (articles linked per project)
-- [ ] **MVP-3.5** Chapter 5: Earlier Career (karate + teaching)
-- [ ] **MVP-3.6** Chapter 6: Contact (email, GitHub, LinkedIn, CV)
+- [x] **MVP-3.1** Chapter 1: About Me (story-driven intro)
+- [x] **MVP-3.2** Chapter 2: Work Experience (Freelance, Appy Innovate)
+- [x] **MVP-3.3** Chapter 3: Projects grid (deep dives + story cards)
+- [x] **MVP-3.4** Chapter 4: Writing (articles linked per project)
+- [x] **MVP-3.5** Chapter 5: Earlier Career (karate + teaching)
+- [x] **MVP-3.6** Chapter 6: Contact (email, GitHub, LinkedIn, CV)
 
 ## Epic MVP-4 – Deep Dives
 - [ ] **MVP-4.1** Render MDX deep dives (Roadmaps API, CI/CD Pipeline, ERPNext Automation)
